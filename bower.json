@@ -2,10 +2,10 @@
     "name": "adapt-pagesInNavBar",
     "repository": "git://github.com/simondate/adapt-pagesInNavBar",
     "framework": ">=2.0.0",
-    "version": "2.0.0",
-    "displayName": "Go top",
-    "extension": "goTop",
-    "description": "Button to jump to the top of the page",
+    "version": "1.0.0",
+    "displayName": "Pages in Navbar",
+    "extension": "pagesInNavBar",
+    "description": "Navigate the course pages in the nav bar",
     "main": "/js/adapt-pagesInNavBar.js",
     "keywords": [
         "adapt-plugin",
@@ -15,6 +15,6 @@
         "Simon Date <simondate@yahoo.co.uk>"
     ],
     "license": "GPL-3.0",
-    "homepage": "https://github.com/KingsOnline/adapt-goTop",
+    "homepage": "https://github.com/simondate/adapt-pagesInNavBar",
     "targetAttribute": "_pagesInNavBar"
 }

@@ -27,7 +27,7 @@
         "course": {
           "type": "object",
           "properties": {
-            "_goTop": {
+            "_pagesInNavBar": {
               "type": "object",
               "required": false,
               "legend": "Go top",
@@ -35,29 +35,8 @@
                 "_isEnabled": {
                   "type": "boolean",
                   "default": true,
-                  "title": "Enable button to return to top of the page",
+                  "title": "Disable to prevent the extension",
                   "inputType": "Checkbox"
-                },
-                "_scrollListener": {
-                  "type": "object",
-                  "required": false,
-                  "legend": "Scroll listener",
-                  "properties": {
-                    "_isEnabled": {
-                      "type": "boolean",
-                      "default": true,
-                      "title": "Enable to listen to the page to show/hide the button",
-                      "inputType": "Checkbox"
-                    },
-                    "_offset": {
-                        "type": "number",
-                        "required": false,
-                        "default": 600,
-                        "title": "Offset before the button is shown",
-                        "inputType": "Number",
-                        "validators": ["number"]
-                    }
-                  }
                 }
               }
             }
