@@ -1,0 +1,8 @@
+//course.json
+"_goTop": {
+  "_isEnabled": true,
+  "_scrollListener": {
+    "_isEnabled": true,
+    "_offset": 600
+  }
+}

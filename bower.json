@@ -1,0 +1,20 @@
+{
+    "name": "adapt-pagesInNavBar",
+    "repository": "git://github.com/simondate/adapt-pagesInNavBar",
+    "framework": ">=2.0.0",
+    "version": "2.0.0",
+    "displayName": "Go top",
+    "extension": "goTop",
+    "description": "Button to jump to the top of the page",
+    "main": "/js/adapt-pagesInNavBar.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "authors": [
+        "Simon Date <simondate@yahoo.co.uk>"
+    ],
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/KingsOnline/adapt-goTop",
+    "targetAttribute": "_pagesInNavBar"
+}

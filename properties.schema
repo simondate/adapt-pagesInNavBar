@@ -1,0 +1,69 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "globals": {},
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object"
+        },
+        "contentobject": {
+          "type": "object"
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "_goTop": {
+              "type": "object",
+              "required": false,
+              "legend": "Go top",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "default": true,
+                  "title": "Enable button to return to top of the page",
+                  "inputType": "Checkbox"
+                },
+                "_scrollListener": {
+                  "type": "object",
+                  "required": false,
+                  "legend": "Scroll listener",
+                  "properties": {
+                    "_isEnabled": {
+                      "type": "boolean",
+                      "default": true,
+                      "title": "Enable to listen to the page to show/hide the button",
+                      "inputType": "Checkbox"
+                    },
+                    "_offset": {
+                        "type": "number",
+                        "required": false,
+                        "default": 600,
+                        "title": "Offset before the button is shown",
+                        "inputType": "Number",
+                        "validators": ["number"]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
