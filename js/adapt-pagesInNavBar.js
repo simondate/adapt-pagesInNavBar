@@ -8,7 +8,7 @@ define([
     className: 'pagesInNavBar',
 
     events: {
-      'click .pageInNavBar-item': 'changePage'
+      'click .page-item': 'changePage'
     },
 
     initialize: function() {
@@ -23,19 +23,16 @@ define([
       var model = {
         _pages: pages
       };
-      console.log(model)
       $('.navigation-inner').append(this.$el.html(template(model)));
     },
 
     changePage: function(event) {
       if (event && event.preventDefault)
         event.preventDefault();
-      console.log($(event.currentTarget));
       var newPage = '.' + $(event.currentTarget).attr('data-page-id');
       Adapt.navigateToElement(newPage, {
         duration: 0
       });
-      console.log(newPage);
     },
   });
 

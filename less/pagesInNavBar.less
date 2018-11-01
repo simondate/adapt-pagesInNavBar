@@ -1,6 +1,32 @@
 .pagesInNavBar {
   float: right;
+
   .page-item {
     padding: 20px;
+    background-color: @tertiary-color;
+    color: @tertiary-color-inverted;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 30%;
+      height: 40%;
+      width: 3px;
+      right: 0;
+      border-right: 1px solid @white;
+    }
+
+    &:hover {
+      background-color: @tertiary-color;
+      color: @tertiary-color-inverted;
+    }
+
+    &:last-of-type {
+      &::before {
+        display: none;
+      }
+    }
   }
 }
