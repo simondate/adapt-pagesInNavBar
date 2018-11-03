@@ -2,7 +2,7 @@
     "name": "adapt-pagesInNavBar",
     "repository": "git://github.com/simondate/adapt-pagesInNavBar",
     "framework": ">=2.0.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Pages in Navbar",
     "extension": "pagesInNavBar",
     "description": "Navigate the course pages in the nav bar",
