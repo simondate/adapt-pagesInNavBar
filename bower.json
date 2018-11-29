@@ -1,6 +1,7 @@
 {
     "name": "adapt-pagesInNavBar",
     "repository": "git://github.com/simondate/adapt-pagesInNavBar",
+    "issues": "https://github.com/simondate/adapt-pagesInNavBar/issues",
     "framework": ">=2.0.0",
     "version": "1.0.1",
     "displayName": "Pages in Navbar",
