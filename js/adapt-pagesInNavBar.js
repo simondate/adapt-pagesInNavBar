@@ -23,7 +23,7 @@ define([
       var model = {
         _pages: pages
       };
-      $('.navigation-inner').append(this.$el.html(template(model)));
+      $('.nav__inner').append(this.$el.html(template(model)));
     },
 
     changePage: function(event) {
