@@ -30,7 +30,7 @@
             "_pagesInNavBar": {
               "type": "object",
               "required": false,
-              "legend": "Go top",
+              "legend": "Pages in Navbar",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
